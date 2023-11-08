@@ -56,12 +56,12 @@
 
 .row{
   display: inline-block;
-  width: 100%;
+  width: auto;
   margin: 0 -20px;
 }
 
 .row .column{
-    max-width: 45%;
+    max-width: 50%;
     display: inline-block;
     float: left;
     padding: 20px;
