@@ -60,11 +60,58 @@
   margin: 0 -20px;
 }
 
-.row .column{
-    max-width: 50%;
+.row .column-*{
     display: inline-block;
     float: left;
     padding: 20px;
+}
+
+
+.row .column-1{
+  max-width: 8.33%;
+}
+
+.row .column-2{
+  max-width: 16.66%;
+}
+
+.row .column-3{
+  max-width: 25%;
+}
+
+.row .column-4{
+  max-width: 33.3%;
+}
+
+.row .column-5{
+  max-width: 41.65%;
+}
+.row .column-6{
+    max-width: 50%;
+}
+
+.row .column-7{
+    max-width: 58.31%;
+}
+
+.row .column-8{
+    max-width: 66.64%;
+}
+
+.row .column-9{
+    max-width: 75%;
+}
+
+.row .column-10{
+    max-width: 83.3%;
+}
+
+.row .column-11{
+    max-width: 91.63%;
+}
+
+.row .column-12{
+    max-width: 100%;
 }
 
 .markdown-body{
@@ -73,7 +120,7 @@ width: 700px;
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .row .column{
+  .row .column-*{
     max-width: 100%;
   }
 }
